@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="assets/js/tailwind.config.js" />
+  <script type="module" crossorigin src="assets/theme-3a535b87.js"></script>
+  <link rel="stylesheet" href="assets/theme-e2a9673d.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ticket</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap" />
+</head>
+<body>
+    <header id="navbar" class="sticky inset-x-0 top-0 z-60 transition-all duration-500 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-md dark:[&.nav-sticky]:bg-default-50/80">
+        <div class="w-full px-4">
+            <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-16">
+                <div class="w-full lg:w-auto flex items-center justify-between">
+                    <!-- Navbar Brand Logo -->
+                    <a href="index-2.html">
+                        <img src="assets/UDH Logo.png" alt="logo" class="h-[6rem] w-[12rem] object-contain">
+                        <!-- <img src="assets/logo-light-82928a21.png" alt="logo" class="h-10 hidden dark:flex"> -->
+                    </a>
+      
+                    <!-- Mobile Menu Toggle Button -->
+                    <button class="hs-collapse-toggle lg:hidden inline-block" id="hs-unstyled-collapse" data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                        <i data-lucide="menu" class="w-7 h-7 text-default-600 hover:text-default-900"></i>
+                    </button>
+                </div>
+      
+                <div id="mobileMenu" class="hs-collapse transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-center mx-auto mt-2 lg:mt-0 overflow-hidden">
+                    <!-- Nevigation Menu -->
+                    <ul class="menu flex lg:items-center justify-center flex-col lg:flex-row gap-y-2">
+                        <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize" href="#home">Home </a>
+                        </li>
+                        <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize" href="#about">About Us </a>
+                        </li>
+                        <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize" href="#hero">Heroes </a>
+                        </li>
+                        <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize" href="#gallery">Gallery </a>
+                        </li>
+                        <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize" href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+      
+                <div class="ms-auto shrink hidden lg:inline-flex gap-2">
+                    <a href="/Ticket.html" class="py-1.5 px-6 inline-flex items-center gap-2 rounded-full text-base text-white bg-primary hover:bg-(#F58634) transition-all duration-500">
+                        <!-- <i data-lucide="download-cloud" class="h-4 w-4 fill-white/40"></i> -->
+                        <span class="hidden sm:block hover:duration-500 hover:transform hover:rotate-180 ease-in-out">Ticket</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </header>
+
+      <div class="min-h-100vh sm:h-screen" style="background-image:url(assets/Watermark.png); background-size: cover; min-height: 100vh;
+; background-repeat: no-repeat;">
+      <div class="container mx-auto px-4 py-8">
+        <div class="mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold mb-1">Choose Your  <span class="text-blue-600">Ticket!</span></h1>
+        </div>
+
+
+        <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
+            <div class="flex-1 bg-indigo-900 p-4 rounded-lg transform rotate-180">
+                <span class="text-white font-semibold transform -rotate-180">1. Booking Date</span>
+            </div>
+            <div class="flex-1 bg-yellow-400 rounded-lg p-4">
+                <span class="font-semibold">2. Tickets</span>
+            </div>
+            <div class="flex-1 bg-yellow-100 p-4 rounded-lg transform rotate-180">
+                <span class="font-semibold transform -rotate-180">3. Personal Details</span>
+            </div>
+            <div class="flex-1 bg-yellow-100 p-4 rounded-lg t24nsform rotate-180">
+                <span class="font-semibold transform -rotate-180">4. Make Payment</span>
+            </div>
+        </div>
+
+       
+
+    </div> 
+
+    <div class="container mx-auto px-5 lg:px-[4rem]">
+        
+        <div class="flex justify-center pb-6">
+            <div class="bg-white rounded-lg shadow-md p-6 h-fit">
+                <!-- <h2 class="text-xl font-bold mb-4">Upside Down House Ticket</h2> -->
+                <div class="grid grid-cols-3 gap-4">
+                    <div>
+                        <p class="font-semibold">Date</p>
+                        <p>22-06-2024</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Time Slot</p>
+                        <p>05:00pm - 08:00pm</p>
+                    </div>
+                    <div class="pl-">
+                        <p class="font-semibold ">Ticket Type</p>
+                        <p>Regular</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+       <div class="flex  justify-center">
+        <div class=" rounded-lg p-6 mb-6 ">
+           
+            <table class="w-full mb-4">
+                <thead>
+                    <tr class="border-b">
+                        <th class="text-left pb-2 px-6">Category</th>
+                        <th class="text-left pb-2 px-6">Price</th>
+                        <th class="text-left pb-2 px-6">Quantity</th>
+                        <th class="text-left pb-2 px-6">Sub-Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b ">
+                        <td class="py-3">Adult</td>
+                        <td>N 9,600</td>
+                        <td class="py-2 px-4">
+                            <div class="flex items-center ">
+                                <button class="w-6 h-6 bg-gray-200 rounded-full">-</button>
+                                <span class="mx-2">0</span>
+                                <button class="w-6 h-6 bg-gray-200 rounded-full">+</button>
+                            </div>
+                        </td>
+                        
+                    <!-- Repeat for other categories -->
+                    <tr class="border-b">
+                        <td class="py-3">11-13 Years</td>
+                        <td>N 1,500</td>
+                        <td class="py-2 px-4">
+                            <div class="flex items-center">
+                                <button class="w-6 h-6 bg-gray-200 rounded-full">-</button>
+                                <span class="mx-2">0</span>
+                                <button class="w-6 h-6 bg-gray-200 rounded-full">+</button>
+                            </div>
+                        </td>
+                        </tr>
+
+                        <tr class="border-b">
+                            <td class="py-3">6-10 Years</td>
+                            <td>N 1,000</td>
+                            <td class="py-2 px-4">
+                                <div class="flex items-center">
+                                    <button class="w-6 h-6 bg-gray-200 rounded-full">-</button>
+                                    <span class="mx-2">0</span>
+                                    <button class="w-6 h-6 bg-gray-200 rounded-full">+</button>
+                                </div>
+                            </td>
+                            </tr>
+
+                            <tr class="border-b">
+                                <td class="py-3">0-5 Years</td>
+                                <td>N 0</td>
+                                <td class="py-2 px-4">
+                                    <div class="flex items-center">
+                                        <button class="w-6 h-6 bg-gray-200 rounded-full">-</button>
+                                        <span class="mx-2">0</span>
+                                        <button class="w-6 h-6 bg-gray-200 rounded-full">+</button>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr class="border-b">
+                                    <td class="py-3">Group of 5</td>
+                                    <td>N 43,200</td>
+                                    <td class="py-2 px-4">
+                                        <div class="flex items-center">
+                                            <button class="w-6 h-6 bg-gray-200 rounded-full">-</button>
+                                            <span class="mx-2">0</span>
+                                            <button class="w-6 h-6 bg-gray-200 rounded-full">+</button>
+                                        </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr class="border-b">
+                                        <td class="py-3">Group of 10</td>
+                                        <td>N 76,800</td>
+                                        <td class="py-2 px-4">
+                                            <div class="flex items-center">
+                                                <button class="w-6 h-6 bg-gray-200 rounded-full">-</button>
+                                                <span class="mx-2">0</span>
+                                                <button class="w-6 h-6 bg-gray-200 rounded-full">+</button>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                        <!-- <tr class="border-b">
+                                            <td class="py-3">G</td>
+                                            <td>N 1,500</td>
+                                            <td class="py-2 px-4">
+                                                <div class="flex items-center">
+                                                    <button class="w-6 h-6 bg-gray-200 rounded-full">-</button>
+                                                    <span class="mx-2">0</span>
+                                                    <button class="w-6 h-6 bg-gray-200 rounded-full">+</button>
+                                                </div>
+                                            </td>
+                                            </tr> -->
+
+                                           
+                </tbody>
+            </table>
+            
+            
+            
+            <div class="flex items-center mb-5">
+                <input type="checkbox" id="insurance" class="mr-2">
+                <label for="insurance">Add Ticket Insurance Fee</label>
+                <svg class="w-4 h-4 ml-1 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            
+            <div class="bg-blue-100 p-4  py-3 rounded flex justify-between items-center">
+                <span class="font-semibold">Total Cost</span>
+                <span class="font-bold">N 29,600</span>
+            </div>
+        </div>
+        <!-- <div class="flex ">
+        <div class="bg-white rounded-lg shadow-md p-6 h-fit">
+            <h2 class="text-xl font-bold mb-4">Upside Down House Ticket</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <p class="font-semibold">Date</p>
+                    <p>22-06-2024</p>
+                </div>
+                <div>
+                    <p class="font-semibold">Time Slot</p>
+                    <p>05:00pm - 08:00pm</p>
+                </div>
+                <div>
+                    <p class="font-semibold">Ticket Type</p>
+                    <p>Regular</p>
+                </div>
+            </div>
+        </div>
+        </div> -->
+    </div>
+    <div class="fixed bottom-0 left-0 right-0">
+    <div class="flex justify-between pt-8 px-5 lg:px-[4rem] pb-10 ">
+        <button class="bg-blue-100 hover:bg-blue-200 text-blue-800 font-semibold py-2 px-6 rounded-full transition duration-300 ease-in-out">
+            Previous
+        </button>
+        
+        <a href="/ticket_2.html"><button  class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300 ease-in-out flex items-center">
+            Next 
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+        </button></a>
+        </div>
+        </div>
+      </div>
+</body>
+</html>
