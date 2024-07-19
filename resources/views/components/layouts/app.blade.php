@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" crossorigin src="{{ asset('assets/js/theme-3a535b87.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('assets/css/theme-e2a9673d.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Landmark Upsidedown House</title>
     {{-- {!! seo() !!} --}}

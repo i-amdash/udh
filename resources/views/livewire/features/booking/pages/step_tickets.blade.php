@@ -1,28 +1,30 @@
 <div>
     <x-booking-page>
-        <x-slot name="slot_head">
-            <h1 class="text-3xl md:text-4xl font-bold mb-1">Choose Your <span class="text-blue-600">Ticket!</span>
-            </h1>
-        </x-slot>
+
         <x-slot name="header">
             @includeIf('livewire.features.booking.components.step_progress')
         </x-slot>
         <x-slot name="body">
+            @php
+                $selected_group = session()->get('selected_group');
+                $selected_slot = session()->get('selected_slot');
+                $selected_tickets = session()->get('selected_tickets');
+            @endphp
             <div class="container mx-auto px-4 lg:px-[4rem]">
                 <div class="flex justify-center pb-6 w-full">
                     <div class="bg-white rounded-lg shadow-md px-8 py-4 h-fit w-full">
                         <div class="flex flex-col gap-4 md:flex-row justify-between">
                             <div>
                                 <p class="font-semibold">Date</p>
-                                <p>22-06-2024</p>
+                                <p>{{ $date }}</p>
                             </div>
                             <div>
                                 <p class="font-semibold">Time Slot</p>
-                                <p>05:00pm - 08:00pm</p>
+                                <p>{{ $selected_slot->slot_name }}: {{ $selected_slot->slot_time_text }}</p>
                             </div>
                             <div class="pl-">
                                 <p class="font-semibold ">Ticket Type</p>
-                                <p>Regular</p>
+                                <p>{{ $selected_group->ticket_group_name }}</p>
                             </div>
                         </div>
                     </div>

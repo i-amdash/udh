@@ -18,7 +18,7 @@ class MainPage extends Component
     public $payment_key;
     public $payment_url;
     public $currentStep = 1;
-    public $totalStep = 4;
+    public $totalStep = 5;
     public $grand_total=0;
     public $baseUrl;
 
@@ -51,7 +51,8 @@ class MainPage extends Component
         1 =>'date',
         2=>'tickets',
         3=>'details',
-        4=>'summary'
+        4=>'summary',
+        5=>'success'
 
     ];
 
@@ -339,8 +340,6 @@ class MainPage extends Component
         // $feedback = $this->makeRequestTwo($this->baseUrl, 'POST', '/api/udh/udh-web-booking', [], $data);
          $feedback =  appService(UdhBookingService::class)->saveBooking($data);
 
-         dd($feedback);
-
         if ($feedback['status']) {
             $booking = $feedback['data'];
             $total = $booking->grand_total*100;
@@ -349,10 +348,11 @@ class MainPage extends Component
             $notify_url = route('payment.notification',['ref'=> $ref_no]);
             //CALL PAYSTACK PAYMENT GATEWAY
             // $transaction = $this->makeRequestTwo($this->payment_url, 'POST', 'api/udh/udh-web-booking', [], $data);
+            $this->goToStep(5);
             $transaction = CurlApiTrait::callCurlApi($this->payment_url,'POST',$total, $email, $notify_url, $this->payment_key, $ref_no);
 
              if (!$transaction) {
-                $this->goToStep(2);
+                $this->goToStep(5);
                return  $this->dispatch('swal', title: 'Failed', message: 'transaction failed');
             }
 

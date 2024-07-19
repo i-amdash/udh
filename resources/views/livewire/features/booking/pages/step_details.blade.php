@@ -1,10 +1,7 @@
 <div>
 
     <x-booking-page>
-        <x-slot name="step_head">
-            <h1 class="text-3xl md:text-4xl font-bold mb-1">Enter Your Personal <span
-                        class="text-blue-600">information!</span></h1>
-        </x-slot>
+        
         <x-slot name="header">
             @includeIf('livewire.features.booking.components.step_progress')
         </x-slot>

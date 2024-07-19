@@ -9,14 +9,15 @@
 
     <!-- Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" crossorigin src="assets/js/theme-3a535b87.js"></script>
-    <link rel="stylesheet" href="assets/css/theme-e2a9673d.css">
+    <script type="module" crossorigin src="{{ asset('assets/js/theme-3a535b87.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('assets/css/theme-e2a9673d.css') }}">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <!-- Styles -->
-    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" />
     @livewireStyles
 </head>
+
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
     @include('includes.header')
     <!-- Hero Section Start -->

@@ -1,10 +1,7 @@
 <div>
     <!-- Step 1: Date and Age Picker -->
     <x-booking-page>
-        <x-slot name="step_head">
-            <h1 class="text-3xl md:text-4xl font-bold">Visit the first upside down house in <span
-                    class="text-blue-600">West Africa!</span></h1>
-        </x-slot>
+       
         <x-slot name="header">
             @includeIf('livewire.features.booking.components.step_progress')
         </x-slot>
