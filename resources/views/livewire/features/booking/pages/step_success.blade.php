@@ -68,10 +68,10 @@
 
                                         </div>
                                     </div>
-                                    <div class="border-dashed border-white md:border-l border-t md:border-t-transparent md:pr-4 flex flex-col-reverse justify-center items-between md:flex-row ">
-                                        <div class="flex flex-col justify-between pt-8 md:pt-0 md:pl-24 md:pr-12 py-4">
+                                    <div class="border-dashed border-white lg:border-l border-t lg:border-t-transparent lg:pr-4 flex flex-col-reverse justify-center items-between lg:flex-row ">
+                                        <div class="flex flex-col justify-between pt-8 lg:pt-0 lg:pl-24 lg:pr-12 py-4">
                                             <h2 class=" text-lg text-white font-semibold pb-4 md:pb-0">This ticket covers: </h2>
-                                            <div class="grid grid-cols-2 gap-x-12 pb-4 md:pb-0">
+                                            <div class="grid grid-cols-2 gap-x-12 pb-4 lg:pb-0">
                                                 <p class="text-lg text-white font-semibold">Adult </p>
                                                 <p class="text-lg text-white font-semibold">x 1 </p>
                                                 <p class="text-lg text-white font-semibold">Children </p>
@@ -82,7 +82,7 @@
                                             </div>
                                             <button type="button" class="text-primary hover:text-white bg-white hover:bg-primary/20 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Share Ticket </button>
                                         </div>
-                                        <div class="pt-12 md:pt-0 rounded-lg">
+                                        <div class="pt-12 lg:pt-0 rounded-lg">
                                             <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" alt="QR Code" class="rounded-lg mx-auto">
                                         </div>
                                     </div>

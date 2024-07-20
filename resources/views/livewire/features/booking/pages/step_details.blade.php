@@ -6,9 +6,9 @@
             @includeIf('livewire.features.booking.components.step_progress')
         </x-slot>
         <x-slot name="body">
-            <div class="py-8 flex flex-row justify-center mx-auto ml-16 mr-16">
-                <form wire:submit="submitStep3" class="w-full md:w-1/2 mx-auto flex flex-col justify-center items-center">
-                    <div class="w-full md:w-1/2 mb-4">
+            <div class="max-w-xl mx-auto rounded-lg py-10 px-5">
+                <form wire:submit="submitStep3" class="">
+                    <div class="relative mb-4">
                         <label for="" class="block text-sm font-medium text-gray-700 mb-1">First name <span
                                 class="text-red-500">*</span></label>
                         <input type="text" wire:model.lazy="firstname"
@@ -18,7 +18,7 @@
                         @enderror
 
                     </div>
-                    <div class="w-full md:w-1/2 mb-4">
+                    <div class="relative mb-4">
                         <label for="" class="block text-sm font-medium text-gray-700 mb-1">Last name <span
                                 class="text-red-500">*</span></label>
                         <input type="text" wire:model.lazy="lastname"
@@ -28,7 +28,7 @@
                         @enderror
 
                     </div>
-                    <div class="w-full md:w-1/2 mb-4">
+                    <div class="relative mb-4">
                         <label for="" class="block text-sm font-medium text-gray-700 mb-1">Email <span
                                 class="text-red-500">*</span></label>
                         <input type="text" wire:model.lazy="email"
@@ -38,7 +38,7 @@
                         @enderror
 
                     </div>
-                    <div class="w-full md:w-1/2">
+                    <div class="relative">
                         <label for="" class="block text-sm font-medium text-gray-700 mb-1">Phone <span
                                 class="text-red-500">*</span></label>
                         <input type="text" wire:model.lazy="phone"
