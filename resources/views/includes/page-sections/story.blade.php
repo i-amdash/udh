@@ -17,11 +17,11 @@
                     </svg>
 
                     <!-- Timeline items -->
-                    <div class="flex justify-between gap-1 items-start relative z-10">
+                    <div class="flex flex-col md:flex-row justify-between gap-4 items-start relative z-10">
                         <!-- Item 1 -->
 
-                        <div class="w-1/3 px-4">
-                            <div class="bg-white rounded-lg shadow-lg p-4 relative">
+                        <div class="md:w-1/3 w-full px-0 md:px-4">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
                                 <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
                                     <div class="inset-0 bg-cover bg-center"
                                         style="background-image: url('path_to_cityscape.jpg');"></div>
@@ -34,8 +34,8 @@
                         </div>
 
                         <!-- Item 2 -->
-                        <div class="w-1/3 px-4 mt-16">
-                            <div class="bg-white rounded-lg shadow-lg p-4 relative">
+                        <div class="md:w-1/3 w-full md:mt-16">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
                                 <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
                                     <div class=" inset-0 bg-cover bg-center"
                                         style="background-image: url('path_to_cityscape.jpg');"></div>
@@ -47,8 +47,8 @@
                         </div>
 
                         <!-- Item 3 -->
-                        <div class="w-1/3 px-4">
-                            <div class="bg-white rounded-lg shadow-lg p-4 relative">
+                        <div class="md:w-1/3 w-full px-0 md:px-4">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
                                 <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
                                     <img src="assets/Step3.png" alt="Fallen house"
                                         class="w-full h-full object-cover transform ">

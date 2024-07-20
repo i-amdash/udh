@@ -18,7 +18,7 @@
     @livewireStyles
 </head>
 
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
+<body class="antialiased dark:bg-black dark:text-white/50">
     @include('includes.header')
     <!-- Hero Section Start -->
     @include('includes.page-sections.hero')

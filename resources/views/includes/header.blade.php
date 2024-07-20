@@ -1,6 +1,6 @@
 <header id="navbar"
     class="sticky inset-x-0 top-0 z-60 transition-all duration-500 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-md dark:[&.nav-sticky]:bg-default-50/80">
-    <div class="w-full px-4">
+    <div class="w-full px-4 font-sans">
         <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-16">
             <div class="w-full lg:w-auto flex items-center justify-between">
                 <!-- Navbar Brand Logo -->
@@ -28,34 +28,29 @@
                     <li
                         class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
                         <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
-                            href="#about">About Us </a>
+                            href="/about">About Us </a>
                     </li>
                     <li
                         class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
                         <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
-                            href="#story">Our Story </a>
+                            href="/gallery">Gallery </a>
                     </li>
                     <li
                         class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
                         <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
-                            href="#hero">Heroes </a>
+                            href="/merchandise">Merchandise</a>
                     </li>
                     <li
                         class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
                         <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
-                            href="#gallery">Gallery </a>
-                    </li>
-                    <li
-                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
-                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
-                            href="#faq">FAQ</a>
+                            href="/offerings">Other Offerings</a>
                     </li>
                 </ul>
             </div>
 
             <div class="ms-auto shrink hidden lg:inline-flex gap-2">
                 <a href="/booking"
-                    class="py-1.5 px-6 inline-flex items-center gap-2 rounded-full text-base text-white bg-primary hover:bg-(#F58634) transition-all duration-500">
+                    class="py-1.5 px-6 inline-flex items-center gap-2 rounded-full text-base text-white bg-[#FF901A] hover:bg-(#F58634) transition-all duration-500">
                     <!-- <i data-lucide="download-cloud" class="h-4 w-4 fill-white/40"></i> -->
                     <span
                         class="hidden sm:block hover:duration-500 hover:transform hover:rotate-180 ease-in-out">Ticket</span>
