@@ -14,7 +14,7 @@
                             Each room is a puzzle to be explored, offering endless photo opportunities and a fresh
                             perspective on everyday life.</p>
 
-                        <a href="#"
+                        <a href="/about"
                             class="group mt-10 inline-flex items-center justify-center gap-2 border border-default-200 text-default-950 py-1 px-1 pe-4 rounded-full hover:bg-primary-700 hover:text-white transition-all duration-300">
                             <span
                                 class="h-11 w-11 rounded-full bg-primary/20 group-hover:bg-white text-primary group-hover:text-black flex items-center justify-center transition-all duration-500 me-2">

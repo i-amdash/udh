@@ -29,6 +29,24 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
+.ticket {
+    background: linear-gradient(135deg, #f6d365 0%, #ff901a 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+.barcode {
+    background: repeating-linear-gradient(
+        90deg,
+        #000,
+        #000 1px,
+        #fff 1px,
+        #fff 4px
+    );
+    width: 100%;
+    height: 100px;
+}
+
 body {
     margin: 0;
     line-height: inherit;
