@@ -152,9 +152,9 @@
                         </div>
 
                         <div class="flex items-center py-4">
-                            <input type="checkbox" class="option-input checkbox" wire:model.lazy='agreeToTerms' />
+                            <input type="checkbox" class="option-input text-[#E17000] checkbox" wire:model.lazy='agreeToTerms' />
                             <label class="cursor-pointer">
-                                &nbsp; Agree to the&nbsp;<span style="color: #0f124a;" id="openModal">terms
+                                &nbsp; Agree to the&nbsp;<span style="color: #ff901a;" id="openModal">terms
                                     and conditions</span>
                             </label>
                         </div>
@@ -221,7 +221,7 @@
                         of
                         <br>(a) the Booking Fee or <br>(b) one hundred thousand Naria (N100,000).
                     </div>
-                    <button id="closeModal" class="px-4 py-2 bg-[#0f124a] text-white rounded">Close</button>
+                    <button id="closeModal" class="px-4 py-2 bg-[#E17000] text-white rounded">Close</button>
                 </div>
             </div>
 

@@ -151,7 +151,7 @@
                         purchasing your ticket. This ensures that you're covered in the event that rescheduling becomes
                         necessary.
                     </div>
-                    <button id="closeModal" class="px-4 py-2 bg-[#0f124a] text-white rounded">Close</button>
+                    <button id="closeModal" class="px-4 py-2 bg-[#E17000] text-white rounded">Close</button>
                 </div>
             </div>
             <script>
