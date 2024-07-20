@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Landmark Upsidedown House</title>
+
+    <!-- Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" crossorigin src="http://localhost/assets/js/theme-3a535b87.js"></script>
+    <link rel="stylesheet" href="http://localhost/assets/css/theme-e2a9673d.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="http://localhost/assets/css/app.css" />
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}</style>
+</head>
+
+<body class="antialiased dark:bg-black dark:text-white/50">
+<header id="navbar"
+    class="sticky inset-x-0 top-0 z-60 transition-all duration-500 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-md dark:[&.nav-sticky]:bg-default-50/80">
+    <div class="w-full px-4 font-sans">
+        <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-16">
+            <div class="w-full lg:w-auto flex items-center justify-between">
+                <!-- Navbar Brand Logo -->
+                <a href="/">
+                    <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-[6rem] w-[12rem] object-contain">
+                    <!-- <img src="assets/logo-light-82928a21.png" alt="logo" class="h-10 hidden dark:flex"> -->
+                </a>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button class="hs-collapse-toggle lg:hidden inline-block" id="hs-unstyled-collapse"
+                    data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                    <i data-lucide="menu" class="w-7 h-7 text-default-600 hover:text-default-900"></i>
+                </button>
+            </div>
+
+            <div id="mobileMenu"
+                class="hs-collapse transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-center mx-auto mt-2 lg:mt-0 overflow-hidden">
+                <!-- Nevigation Menu -->
+                <ul class="menu flex lg:items-center justify-center flex-col lg:flex-row gap-y-2">
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/">Home </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/about">About Us </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/gallery">Gallery </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/merchandise">Merchandise</a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/offerings">Other Offerings</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ms-auto shrink hidden lg:inline-flex gap-2">
+                <a href="/booking"
+                    class="py-1.5 px-6 inline-flex items-center gap-2 rounded-full text-base text-white bg-[#FF901A] hover:bg-(#F58634) transition-all duration-500">
+                    <!-- <i data-lucide="download-cloud" class="h-4 w-4 fill-white/40"></i> -->
+                    <span
+                        class="hidden sm:block hover:duration-500 hover:transform hover:rotate-180 ease-in-out">Ticket</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+        <div wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;LVny6efIoCTM66UdZ0aL&quot;,&quot;name&quot;:&quot;features.about&quot;,&quot;path&quot;:&quot;about&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;6c9ba58efb34c7c13c143c985fc3131e7f536c91f95a17177d03685fc0060f06&quot;}" wire:effects="[]" wire:id="LVny6efIoCTM66UdZ0aL">
+<div class="relative overflow-hidden p-8 lg:overflow-visible">
+    <div class="flex pl-8 md:pl-24 py-8">
+        <h1 class="text-primary text-2xl sm:text-5xl transform rotate-180">
+        The first upside down house in west Africa
+        </h1>
+    </div>
+  
+  <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+    <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+      <img class="w-[48rem] max-w-none rounded-xl  shadow-xl sm:w-[57rem]" src="http://localhost/assets/images/about.png" alt="">
+    </div>
+    <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8">
+        <div class="max-w-xl text-base leading-7 lg:max-w-lg">
+        <h2 class="text-2xl font-semibold">Our Story! </h2>
+        <p>The Upside Down Amsterdam is world’s largest upside down social media experience. With our 25+ rooms and installations we have a 1500m2 mind-bending and colorful experience for you. All fitted in the theme of ‘The New Dutch’. </p>
+          <p class="mt-8">We would like to tell you our typical contemporary Dutch culture in a fun way. As people usually only get to see the traditional stuff like mills and clogs — booooring! We want to do it differently by showing you all the things we are proud of like diversity and inclusivity or our amazing dance music scene. Discover everything you never knew when you swing by in our experience!</p>
+          <p>The Upside Down Amsterdam is world’s largest upside down social media experience. With our 25+ rooms and installations we have a 1500m2 mind-bending and colorful experience for you. All fitted in the theme of ‘The New Dutch’. </p>
+          <p class="mt-8">We would like to tell you our typical contemporary Dutch culture in a fun way. As people usually only get to see the traditional stuff like mills and clogs — booooring! We want to do it differently by showing you all the things we are proud of like diversity and inclusivity or our amazing dance music scene. Discover everything you never knew when you swing by in our experience!</p>
+          <h2 class="mt-16 text-2xl font-semibold tracking-tight">Experience our exciting house and defy gravity! </h2>
+          <p class="mt-6">We would like to tell you our typical contemporary Dutch culture in a fun way. As people usually only get to see the traditional stuff like mills and clogs — booooring! We want to do it differently by showing you all the things we are proud of like diversity and inclusivity or our amazing dance music scene. Discover everything you never knew when you swing by in our experience!</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<section id="story" class="relative py-24 lg:py-28">
+        <div class="container">
+            <div class="min-w-16 mx-auto relative">
+                <div class="flex justify-between items-start mb-8">
+                    <h1 class="text-2xl md:text-2xl font-bold ml-10">It all started
+                        here so many years ago....</h1>
+                    <div>
+                        <img src="assets/spark, sparks, sparkle, stars, 30.png" alt="stars" class="">
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <!-- Orange dotted line -->
+                    <svg class="absolute top-1/2 left-0 w-full h-1" style="transform: translateY(-50%);">
+                        <line x1="0" y1="0" x2="100%" y2="0" stroke="#FFA500"
+                            stroke-width="4" stroke-dasharray="10,10" style="animation: dash 20s linear infinite;" />
+                    </svg>
+
+                    <!-- Timeline items -->
+                    <div class="flex flex-col md:flex-row justify-between gap-4 items-start relative z-10">
+                        <!-- Item 1 -->
+
+                        <div class="md:w-1/3 w-full px-0 md:px-4">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
+                                <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
+                                    <div class="inset-0 bg-cover bg-center"
+                                        style="background-image: url('path_to_cityscape.jpg');"></div>
+                                    <img src="assets/Step1.png" alt="1900s Afro-Brazilian house"
+                                        class=" h-48 w-full object-cover">
+                                </div>
+                                <p class="text-sm">1900s Afro-Brazilian houses in Lagos making way for more
+                                    contemporary buildings.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="md:w-1/3 w-full md:mt-16">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
+                                <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
+                                    <div class=" inset-0 bg-cover bg-center"
+                                        style="background-image: url('path_to_cityscape.jpg');"></div>
+                                    <img src="assets/Step2.png" alt="Pedro home" class="h-full w-full object-cover">
+
+                                </div>
+                                <p class="text-sm">The Pedro home in Isale-Eko transported to Ibeju-Lekki</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="md:w-1/3 w-full px-0 md:px-4">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
+                                <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
+                                    <img src="assets/Step3.png" alt="Fallen house"
+                                        class="w-full h-full object-cover transform ">
+
+                                </div>
+                                <p class="text-sm">Bad weather conditions caused the house to fall.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<div class="fixed bottom-5 end-5 flex flex-col gap-1 items-center z-[1000]">
+        <!-- Back to Top -->
+        <button
+            class="h-10 w-10 bg-primary/20 backdrop-blur-3xl rounded-full text-primary flex justify-center items-center transition-all duration-500 translate-x-16 shadow-[inset_0px_0px_12px_0px] shadow-primary/40 z-10 "
+            data-toggle="back-to-top">
+            <i class="h-4 w-4" data-lucide="chevron-up"></i>
+        </button>
+
+        <!-- Light/Dark Toggle -->
+        <button class="bg-primary text-white rounded-lg z-20">
+            <span class="h-9 w-9 flex justify-center items-center" id="light-theme">
+                <i class="h-5 w-5" data-lucide="moon"></i>
+            </span>
+            <span class="h-9 w-9 flex justify-center items-center" id="dark-theme">
+                <i class="h-5 w-5" data-lucide="sun"></i>
+            </span>
+        </button>
+    </div>
+</div>
+        <footer>
+    <div class="border-y border-default-200 border-primary/10 bg-primary/5">
+        <div class="container py-20">
+            <div class="grid xl:grid-cols-5 md:grid-cols-3 gap-10 lg:gap-16">
+                <div class="xl:col-span-2 md:col-span-3">
+                    <div>
+                        <a href="/">
+                            <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-16 flex dark:hidden">
+                        </a>
+                        <p class="text-base font-medium  text-default-800 mt-6"> The Upside Down House is a perfect
+                            spot for families, friends, and anyone looking to add a little magic to their day.</p>
+
+                    </div>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Company</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">About</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Services</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Social Media</h5>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="facebook" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Facebook</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="instagram" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Instagram</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="twitter" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Twitter</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="linkedin" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Linkedin</h5>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0">Location</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Plot 3 &
+                                4, Water Corporation Road, Victoria Island - Lagos</a>
+                        </li>
+                        <!-- <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Terms & Conditions</a>
+                      </li>
+                      <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Presskit</a>
+                      </li> -->
+                        <ul class="flex flex-col gap-1">
+                            <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0 pt-10">Opening Hours
+                            </h5>
+                            <li>
+                                <a href="javascript:void(0);"
+                                    class="text-base text-default-700 hover:text-default-950 transition-all">Monday
+                                    - Friday [10am - 10pm]
+                                </a>
+                            </li>
+
+                        </ul>
+                    </ul>
+                </div><!-- col End -->
+            </div><!-- grid End -->
+        </div><!-- Container End -->
+    </div>
+
+    <div class="py-4">
+        <div
+            class="container flex flex-wrap justify-center items-center h-full md:justify-between text-center md:text-start">
+            <p class="text-base font-medium text-default-800">
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                © Landmark Africa
+            </p>
+            <p class="text-base font-medium text-default-800">
+                <a href="#">Terms & Conditions</a>
+            </p>
+        </div><!-- Flex End -->
+    </div>
+</footer>
+</body>
+
+</html>
+

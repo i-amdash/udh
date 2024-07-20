@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Landmark Upsidedown House</title>
+
+    <!-- Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" crossorigin src="http://localhost/assets/js/theme-3a535b87.js"></script>
+    <link rel="stylesheet" href="http://localhost/assets/css/theme-e2a9673d.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="http://localhost/assets/css/app.css" />
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}</style>
+</head>
+
+<body class="antialiased dark:bg-black dark:text-white/50">
+<header id="navbar"
+    class="sticky inset-x-0 top-0 z-60 transition-all duration-500 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-md dark:[&.nav-sticky]:bg-default-50/80">
+    <div class="w-full px-4 font-sans">
+        <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-16">
+            <div class="w-full lg:w-auto flex items-center justify-between">
+                <!-- Navbar Brand Logo -->
+                <a href="/">
+                    <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-[6rem] w-[12rem] object-contain">
+                    <!-- <img src="assets/logo-light-82928a21.png" alt="logo" class="h-10 hidden dark:flex"> -->
+                </a>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button class="hs-collapse-toggle lg:hidden inline-block" id="hs-unstyled-collapse"
+                    data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                    <i data-lucide="menu" class="w-7 h-7 text-default-600 hover:text-default-900"></i>
+                </button>
+            </div>
+
+            <div id="mobileMenu"
+                class="hs-collapse transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-center mx-auto mt-2 lg:mt-0 overflow-hidden">
+                <!-- Nevigation Menu -->
+                <ul class="menu flex lg:items-center justify-center flex-col lg:flex-row gap-y-2">
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/">Home </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/about">About Us </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/gallery">Gallery </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/merchandise">Merchandise</a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/offerings">Other Offerings</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ms-auto shrink hidden lg:inline-flex gap-2">
+                <a href="/booking"
+                    class="py-1.5 px-6 inline-flex items-center gap-2 rounded-full text-base text-white bg-[#FF901A] hover:bg-(#F58634) transition-all duration-500">
+                    <!-- <i data-lucide="download-cloud" class="h-4 w-4 fill-white/40"></i> -->
+                    <span
+                        class="hidden sm:block hover:duration-500 hover:transform hover:rotate-180 ease-in-out">Ticket</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+        <div wire:snapshot="{&quot;data&quot;:{&quot;payment_key&quot;:null,&quot;payment_url&quot;:null,&quot;currentStep&quot;:1,&quot;totalStep&quot;:5,&quot;grand_total&quot;:0,&quot;baseUrl&quot;:null,&quot;isLoading&quot;:false,&quot;list_of_tickets&quot;:[[],{&quot;class&quot;:&quot;Illuminate\\Support\\Collection&quot;,&quot;s&quot;:&quot;clctn&quot;}],&quot;date&quot;:&quot;2024-07-20&quot;,&quot;slot_id&quot;:&quot;&quot;,&quot;group_id&quot;:&quot;&quot;,&quot;selectCounter&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;has_insurance&quot;:0,&quot;insurance_fee&quot;:&quot;200&quot;,&quot;insurance_total&quot;:0,&quot;insurance_terms&quot;:&quot;&quot;,&quot;firstname&quot;:null,&quot;lastname&quot;:null,&quot;email&quot;:null,&quot;phone&quot;:null,&quot;counter&quot;:0,&quot;available_numbers&quot;:0,&quot;agreeToTerms&quot;:null,&quot;stepList&quot;:[{&quot;1&quot;:&quot;date&quot;,&quot;2&quot;:&quot;tickets&quot;,&quot;3&quot;:&quot;details&quot;,&quot;4&quot;:&quot;summary&quot;,&quot;5&quot;:&quot;success&quot;},{&quot;s&quot;:&quot;arr&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;nKGOUZKarPkLvY59QOQf&quot;,&quot;name&quot;:&quot;features.booking.pages.main-page&quot;,&quot;path&quot;:&quot;booking&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;b4c97b209b9794b872ba911c7f84263cc13367cb93caff5178e8ba4a88fd2fc3&quot;}" wire:effects="{&quot;listeners&quot;:[&quot;refreshQueryString&quot;]}" wire:id="nKGOUZKarPkLvY59QOQf">
+    <!-- Step 1: Date and Age Picker -->
+    <div class="min-h-screen"
+    style="background-image:url(http://localhost/assets/Watermark.png); background-size: cover; background-repeat: no-repeat;">
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
+            <div class="container mx-auto px-4 py-8">
+    <!--[if BLOCK]><![endif]-->        <div class="mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold">Visit the first upside down house in <span
+                    class="text-primary">West
+                    Africa!</span></h1>
+        </div>
+    <!--[if ENDBLOCK]><![endif]-->
+    <div class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
+        <div
+            class=" flex-1 bg-primary p-4 rounded-lg flex-grow
+         ">
+            <span
+                class=" font-semibold text-white
+             ">
+                1. Booking Date
+            </span>
+        </div>
+        <div
+            class=" bg-[#FEF7F3] p-4 rounded-lg flex-grow transform rotate-180 ">
+            <span
+                class=" font-semibold transform -rotate-180 ">2.
+                Tickets</span>
+        </div>
+        <div
+            class=" bg-[#FEF7F3] p-4 rounded-lg flex-grow transform rotate-180 ">
+            <span
+                class=" font-semibold transform -rotate-180 ">3.
+                Personal Details</span>
+        </div>
+        <div
+            class=" bg-[#FEF7F3] p-4 rounded-lg flex-grow transform rotate-180 "">
+            <span
+                class=" font-semibold transform -rotate-180 ">4.
+                Make Payment</span>
+        </div>
+
+    </div>
+
+
+
+    
+
+<ol class="flex md:hidden items-center w-full text-sm font-medium text-center text-gray-500 dark:text-gray-400 sm:text-base">
+<!--[if BLOCK]><![endif]-->    <li class="flex md:w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">
+        <span class="flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-gray-200 dark:after:text-gray-500">
+            <span class="me-2">1</span>
+            Date <span class="hidden sm:inline-flex sm:ms-2">Info</span>
+        </span>
+    </li>
+    <!--[if ENDBLOCK]><![endif]-->
+    <!--[if BLOCK]><![endif]-->    <li class="flex md:w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">
+        <span class="flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-gray-200 dark:after:text-gray-500">
+            <span class="me-2">2</span>
+            Ticket <span class="hidden sm:inline-flex sm:ms-2">Info</span>
+        </span>
+    </li>
+    <!--[if ENDBLOCK]><![endif]-->
+    <!--[if BLOCK]><![endif]-->    <li class="flex md:w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">
+        <span class="flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-gray-200 dark:after:text-gray-500">
+            <span class="me-2">3</span>
+            Personal <span class="hidden sm:inline-flex sm:ms-2">Info</span>
+        </span>
+    </li>
+    <!--[if ENDBLOCK]><![endif]-->
+    <li class="flex items-center">
+        <span class="me-2">4</span>
+        Summary
+    </li>
+</ol>
+
+
+
+</div>
+        </div>
+    </div>
+    <div>
+        <!--[if BLOCK]><![endif]-->                <div class="max-w-xl mx-auto rounded-lg py-10 px-5">
+                    <form wire:submit.prevent="submitStep1">
+                        <div class="mb-4">
+                            <label for="date" class="block text-sm font-medium text-gray-700 mb-1">
+                                Select Date <span class="text-red-500">*</span>
+                            </label>
+                            <div class="relative">
+                                <input type="date" id="date" wire:model.lazy="date"
+                                    min="2024-07-20"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500">
+                                <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                    <i class="fas fa-calendar text-gray-400"></i>
+                                </div>
+                            </div>
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="time" class="block text-sm font-medium text-gray-700 mb-1">
+                                Time Slot <span class="text-red-500">*</span>
+                            </label>
+                            <div class="relative">
+                                <select id="time" wire:model.lazy="slot_id" name="time" required
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 appearance-none">
+                                    <option value="">Select a time slot</option>
+                                    <!--[if BLOCK]><![endif]-->                                        <option value="1"> Morning (
+                                            10:00AM-1:00PM ) </option>
+                                                                            <option value="2"> Afternoon (
+                                            1:30PM-4:30PM ) </option>
+                                                                            <option value="3"> Evening (
+                                            5:00PM-8:00PM ) </option>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </select>
+                                <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                    <i class="fas fa-chevron-down text-gray-400"></i>
+                                </div>
+                            </div>
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="ticket" class="block text-sm font-medium text-gray-700 mb-1">
+                                Ticket Type <span class="text-red-500">*</span>
+                            </label>
+                            <div class="relative">
+                                <select id="ticket" name="ticket" wire:model.lazy="group_id"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 appearance-none">
+                                    <option value="">Select a ticket type</option>
+                                    <!--[if BLOCK]><![endif]-->                                        <option value="1"> Regular </option>
+                                                                            <option value="2"> VIP </option>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </select>
+                                <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                    <i class="fas fa-chevron-down text-gray-400"></i>
+                                </div>
+                            </div>
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        </div>
+                        <div class="fixed bg-[#FEF7F3] bottom-0 left-0 right-0">
+    <div class="flex justify-between pt-8 px-5 lg:px-[4rem] pb-10 ">
+        <!--[if BLOCK]><![endif]-->            <div style="width:100px"></div>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <button
+            class="bg-[#ff901a] hover:bg-[#e07000] text-white font-semibold py-2 px-6 rounded-full transition duration-300 ease-in-out flex items-center"
+            type="submit" wire:click="nextStep">Next</button>
+    </div>
+</div>
+                    </form>
+                </div>
+
+            <!--[if ENDBLOCK]><![endif]-->
+    </div>
+</div>
+</div>
+        <footer>
+    <div class="border-y border-default-200 border-primary/10 bg-primary/5">
+        <div class="container py-20">
+            <div class="grid xl:grid-cols-5 md:grid-cols-3 gap-10 lg:gap-16">
+                <div class="xl:col-span-2 md:col-span-3">
+                    <div>
+                        <a href="/">
+                            <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-16 flex dark:hidden">
+                        </a>
+                        <p class="text-base font-medium  text-default-800 mt-6"> The Upside Down House is a perfect
+                            spot for families, friends, and anyone looking to add a little magic to their day.</p>
+
+                    </div>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Company</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">About</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Services</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Social Media</h5>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="facebook" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Facebook</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="instagram" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Instagram</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="twitter" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Twitter</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="linkedin" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Linkedin</h5>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0">Location</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Plot 3 &
+                                4, Water Corporation Road, Victoria Island - Lagos</a>
+                        </li>
+                        <!-- <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Terms & Conditions</a>
+                      </li>
+                      <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Presskit</a>
+                      </li> -->
+                        <ul class="flex flex-col gap-1">
+                            <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0 pt-10">Opening Hours
+                            </h5>
+                            <li>
+                                <a href="javascript:void(0);"
+                                    class="text-base text-default-700 hover:text-default-950 transition-all">Monday
+                                    - Friday [10am - 10pm]
+                                </a>
+                            </li>
+
+                        </ul>
+                    </ul>
+                </div><!-- col End -->
+            </div><!-- grid End -->
+        </div><!-- Container End -->
+    </div>
+
+    <div class="py-4">
+        <div
+            class="container flex flex-wrap justify-center items-center h-full md:justify-between text-center md:text-start">
+            <p class="text-base font-medium text-default-800">
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                © Landmark Africa
+            </p>
+            <p class="text-base font-medium text-default-800">
+                <a href="#">Terms & Conditions</a>
+            </p>
+        </div><!-- Flex End -->
+    </div>
+</footer>
+</body>
+
+</html>
+

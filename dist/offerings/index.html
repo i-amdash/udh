@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Landmark Upsidedown House</title>
+
+    <!-- Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" crossorigin src="http://localhost/assets/js/theme-3a535b87.js"></script>
+    <link rel="stylesheet" href="http://localhost/assets/css/theme-e2a9673d.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="http://localhost/assets/css/app.css" />
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}</style>
+</head>
+
+<body class="antialiased dark:bg-black dark:text-white/50">
+<header id="navbar"
+    class="sticky inset-x-0 top-0 z-60 transition-all duration-500 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-md dark:[&.nav-sticky]:bg-default-50/80">
+    <div class="w-full px-4 font-sans">
+        <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-16">
+            <div class="w-full lg:w-auto flex items-center justify-between">
+                <!-- Navbar Brand Logo -->
+                <a href="/">
+                    <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-[6rem] w-[12rem] object-contain">
+                    <!-- <img src="assets/logo-light-82928a21.png" alt="logo" class="h-10 hidden dark:flex"> -->
+                </a>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button class="hs-collapse-toggle lg:hidden inline-block" id="hs-unstyled-collapse"
+                    data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                    <i data-lucide="menu" class="w-7 h-7 text-default-600 hover:text-default-900"></i>
+                </button>
+            </div>
+
+            <div id="mobileMenu"
+                class="hs-collapse transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-center mx-auto mt-2 lg:mt-0 overflow-hidden">
+                <!-- Nevigation Menu -->
+                <ul class="menu flex lg:items-center justify-center flex-col lg:flex-row gap-y-2">
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/">Home </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/about">About Us </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/gallery">Gallery </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/merchandise">Merchandise</a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/offerings">Other Offerings</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ms-auto shrink hidden lg:inline-flex gap-2">
+                <a href="/booking"
+                    class="py-1.5 px-6 inline-flex items-center gap-2 rounded-full text-base text-white bg-[#FF901A] hover:bg-(#F58634) transition-all duration-500">
+                    <!-- <i data-lucide="download-cloud" class="h-4 w-4 fill-white/40"></i> -->
+                    <span
+                        class="hidden sm:block hover:duration-500 hover:transform hover:rotate-180 ease-in-out">Ticket</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+        <div wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;vmMKUkQJhQwRn3JKdHy3&quot;,&quot;name&quot;:&quot;features.offerings&quot;,&quot;path&quot;:&quot;offerings&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;a10bc6a46c743e05e0156f56529dad5ea5cc4252516fa4059f11d6facbb5ffe4&quot;}" wire:effects="[]" wire:id="vmMKUkQJhQwRn3JKdHy3">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="mx-auto max-w-2xl py-16 sm:py-16 lg:max-w-none lg:py-18">
+    <div class="flex pb-8">
+        <h1 class="text-primary text-2xl sm:text-5xl transform rotate-180">
+            Visit the Landmark Eco-System
+        </h1>
+    </div>
+
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/hrc.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hard Rock Cafe</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/sr.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Shiro</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/tlh.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Landmark Hotel</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/llv.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Filmhouse</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/lmcgn.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Gamer</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div><div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/lmcwe.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Landmark Event Center</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/bnd.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Coffee & Co</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/hrc.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">989 Workspaces</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="http://localhost/assets/images/area/hrcm.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">355 Bar and Restuarant</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The home of the best monday night parties and amazing shows / concerts on the weekends, with refreshing drinks and entertainmet.</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Explore
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+</div>
+</div>
+
+</div>
+
+<div class="fixed bottom-5 end-5 flex flex-col gap-1 items-center z-[1000]">
+        <!-- Back to Top -->
+        <button
+            class="h-10 w-10 bg-primary/20 backdrop-blur-3xl rounded-full text-primary flex justify-center items-center transition-all duration-500 translate-x-16 shadow-[inset_0px_0px_12px_0px] shadow-primary/40 z-10 "
+            data-toggle="back-to-top">
+            <i class="h-4 w-4" data-lucide="chevron-up"></i>
+        </button>
+
+        <!-- Light/Dark Toggle -->
+        <button class="bg-primary text-white rounded-lg z-20">
+            <span class="h-9 w-9 flex justify-center items-center" id="light-theme">
+                <i class="h-5 w-5" data-lucide="moon"></i>
+            </span>
+            <span class="h-9 w-9 flex justify-center items-center" id="dark-theme">
+                <i class="h-5 w-5" data-lucide="sun"></i>
+            </span>
+        </button>
+    </div>
+</div>
+        <footer>
+    <div class="border-y border-default-200 border-primary/10 bg-primary/5">
+        <div class="container py-20">
+            <div class="grid xl:grid-cols-5 md:grid-cols-3 gap-10 lg:gap-16">
+                <div class="xl:col-span-2 md:col-span-3">
+                    <div>
+                        <a href="/">
+                            <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-16 flex dark:hidden">
+                        </a>
+                        <p class="text-base font-medium  text-default-800 mt-6"> The Upside Down House is a perfect
+                            spot for families, friends, and anyone looking to add a little magic to their day.</p>
+
+                    </div>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Company</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">About</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Services</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Social Media</h5>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="facebook" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Facebook</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="instagram" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Instagram</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="twitter" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Twitter</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="linkedin" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Linkedin</h5>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0">Location</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Plot 3 &
+                                4, Water Corporation Road, Victoria Island - Lagos</a>
+                        </li>
+                        <!-- <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Terms & Conditions</a>
+                      </li>
+                      <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Presskit</a>
+                      </li> -->
+                        <ul class="flex flex-col gap-1">
+                            <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0 pt-10">Opening Hours
+                            </h5>
+                            <li>
+                                <a href="javascript:void(0);"
+                                    class="text-base text-default-700 hover:text-default-950 transition-all">Monday
+                                    - Friday [10am - 10pm]
+                                </a>
+                            </li>
+
+                        </ul>
+                    </ul>
+                </div><!-- col End -->
+            </div><!-- grid End -->
+        </div><!-- Container End -->
+    </div>
+
+    <div class="py-4">
+        <div
+            class="container flex flex-wrap justify-center items-center h-full md:justify-between text-center md:text-start">
+            <p class="text-base font-medium text-default-800">
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                © Landmark Africa
+            </p>
+            <p class="text-base font-medium text-default-800">
+                <a href="#">Terms & Conditions</a>
+            </p>
+        </div><!-- Flex End -->
+    </div>
+</footer>
+</body>
+
+</html>
+

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Landmark Upsidedown House</title>
+
+    <!-- Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" crossorigin src="http://localhost/assets/js/theme-3a535b87.js"></script>
+    <link rel="stylesheet" href="http://localhost/assets/css/theme-e2a9673d.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="http://localhost/assets/css/app.css" />
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}</style>
+</head>
+
+<body class="antialiased dark:bg-black dark:text-white/50">
+    <header id="navbar"
+    class="sticky inset-x-0 top-0 z-60 transition-all duration-500 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-md dark:[&.nav-sticky]:bg-default-50/80">
+    <div class="w-full px-4 font-sans">
+        <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-16">
+            <div class="w-full lg:w-auto flex items-center justify-between">
+                <!-- Navbar Brand Logo -->
+                <a href="/">
+                    <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-[6rem] w-[12rem] object-contain">
+                    <!-- <img src="assets/logo-light-82928a21.png" alt="logo" class="h-10 hidden dark:flex"> -->
+                </a>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button class="hs-collapse-toggle lg:hidden inline-block" id="hs-unstyled-collapse"
+                    data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                    <i data-lucide="menu" class="w-7 h-7 text-default-600 hover:text-default-900"></i>
+                </button>
+            </div>
+
+            <div id="mobileMenu"
+                class="hs-collapse transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-center mx-auto mt-2 lg:mt-0 overflow-hidden">
+                <!-- Nevigation Menu -->
+                <ul class="menu flex lg:items-center justify-center flex-col lg:flex-row gap-y-2">
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/">Home </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/about">About Us </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/gallery">Gallery </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/merchandise">Merchandise</a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full capitalize"
+                            href="/offerings">Other Offerings</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ms-auto shrink hidden lg:inline-flex gap-2">
+                <a href="/booking"
+                    class="py-1.5 px-6 inline-flex items-center gap-2 rounded-full text-base text-white bg-[#FF901A] hover:bg-(#F58634) transition-all duration-500">
+                    <!-- <i data-lucide="download-cloud" class="h-4 w-4 fill-white/40"></i> -->
+                    <span
+                        class="hidden sm:block hover:duration-500 hover:transform hover:rotate-180 ease-in-out">Ticket</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- Hero Section Start -->
+    <section id="home" class="relative overflow-hidden">
+    <div class="px-0 md:px-0">
+        <div class="rounded-0 overflow-hidden bg-no-repeat bg-cover bg-center"
+            style="background-image: url(assets/Exterior\ View\ 2.jpg);">
+            <div class="bg-black/60 rounded-0">
+                <div class="container">
+                    <div class="p-6 relative">
+                        <div class="flex h-full items-center justify-center py-36">
+                            <div class="text-center max-w-3xl mx-auto relative">
+
+                                <h1
+                                    class="md:text-5xl/snug text-3xl font-medium text-white mt-10 hover:duration-500 hover:transform hover:rotate-180 ease-in-out">
+                                    Discover the Magic of the Upsidedown House</h1>
+
+                                <div
+                                    class="flex justify-center mt-10 hover:duration-500 hover:transform hover:rotate-180 ease-in-out">
+                                    <a href="/booking"
+                                        class="inline-flex items-center justify-center gap-2 text-base py-2 px-8 rounded-md text-white bg-primary hover:bg-primary-700 transition-all duration-700">Buy
+                                        Your Tickets
+                                        <i data-lucide="move-right" class="h-6 w-6"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- flex End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Container End -->
+</section>
+<!-- Hero section ends -->
+<!-- Brand Slider starts -->
+<section id="home" class="">
+    <div class="relative gap-28 m-auto flex overflow-hidden py-6">
+        <div class="marquee__group gap-28 flex items-center justify-around flex-shrink-0 min-w-full">
+            <img src="assets/images/disney_logo.png" alt="logo" class="w-full h-10">
+            <img src="assets/images/jnj_logo.svg" alt="logo" class="w-full h-10">
+            <img src="assets/images/jansen_logo.png" alt="logo" class="w-full h-10">
+            <img src="assets/images/universal_logo.jpg" alt="logo" class="w-full h-10">
+            <img src="assets/images/jnj_logo.svg" alt="logo" class="w-full h-10">
+            <img src="assets/images/jansen_logo.png" alt="logo" class="w-full h-14">
+        </div>
+        <!-- marquee__group End -->
+
+        <div aria-hidden="true" class="marquee__group gap-28 flex items-center justify-around flex-shrink-0 min-w-full">
+            <img src="assets/images/disney_logo.png" alt="logo" class="w-full h-10">
+            <img src="assets/images/jnj_logo.svg" alt="logo" class="w-full h-10">
+            <img src="assets/images/jansen_logo.png" alt="logo" class="w-full h-10">
+            <img src="assets/images/universal_logo.jpg" alt="logo" class="w-full h-10">
+            <img src="assets/images/jnj_logo.svg" alt="logo" class="w-full h-10">
+            <img src="assets/images/disney_logo.png" alt="logo" class="w-full h-10">
+        </div>
+        <!-- marquee__group End-->
+    </div><!-- flex End -->
+</section>
+    <!-- brand slider ends -->
+    <section id="about" class="relative overflow-hidden px-0 md:px-0">
+    <div class="border border-primary/10 bg-primary/5">
+        <div class="container">
+            <div class="p-6">
+                <div class="grid lg:grid-cols-2 grid-cols-1 gap-12 items-center relative">
+                    <div>
+                        <span
+                            class="py-1 px-3 text-sm font-medium uppercase tracking-wider text-primary bg-primary/10 shadow">Mind
+                            Blowing</span>
+                        <h1 class="md:text-4xl/tight text-3xl font-medium text-default-800 max-w-lg my-4">A
+                            Mind-Bending Experience and Defy gravity</h1>
+                        <p class="md:text-lg">From the moment you walk in, you’ll find everything delightfully
+                            inverted. Furniture hangs from the ceiling, and you’ll feel like you’re walking on air.
+                            Each room is a puzzle to be explored, offering endless photo opportunities and a fresh
+                            perspective on everyday life.</p>
+
+                        <a href="/about"
+                            class="group mt-10 inline-flex items-center justify-center gap-2 border border-default-200 text-default-950 py-1 px-1 pe-4 rounded-full hover:bg-primary-700 hover:text-white transition-all duration-300">
+                            <span
+                                class="h-11 w-11 rounded-full bg-primary/20 group-hover:bg-white text-primary group-hover:text-black flex items-center justify-center transition-all duration-500 me-2">
+                                <i data-lucide="image" class="h-5 w-5"></i>
+                            </span>
+                            Our Story
+                        </a>
+                    </div><!-- col End -->
+
+                    <div class="mx-auto h-[695px] overflow-hidden">
+                        <div class="marquee grid grid-cols-2 gap-6">
+                            <div class="relative gap-6 m-auto flex flex-col overflow-hidden">
+                                <div
+                                    class="marquee-hero gap-6 flex flex-col items-center justify-around flex-shrink-0 min-h-full">
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Bedroom 2.jpg'
+                                        alt=''>
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Exterior View 1.jpg'
+                                        alt=''>
+                                </div>
+
+                                <div aria-hidden="true"
+                                    class="marquee-hero gap-6 flex flex-col items-center justify-around flex-shrink-0 min-h-full">
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Bedroom 2.jpg'
+                                        alt=''>
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Exterior View 1.jpg'
+                                        alt=''>
+                                </div>
+                            </div><!-- flex End -->
+
+                            <div class="marquee-reverse gap-6 m-auto flex flex-col overflow-hidden">
+                                <div
+                                    class="marquee-hero gap-6 flex flex-col items-center justify-around flex-shrink-0 min-h-full">
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Bedroom 2.jpg'
+                                        alt=''>
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Exterior View 1.jpg'
+                                        alt=''>
+                                </div>
+
+                                <div aria-hidden="true"
+                                    class="marquee-hero gap-6 flex flex-col items-center justify-around flex-shrink-0 min-h-full">
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Bedroom 2.jpg'
+                                        alt=''>
+                                    <img class="aspect-1 object-cover h-80 w-60" src='assets/Exterior View 1.jpg'
+                                        alt=''>
+                                </div>
+                            </div><!-- flex End -->
+                        </div><!-- marquee End -->
+                    </div><!-- col End -->
+                </div><!-- grid End -->
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Discover experience 2 ends -->
+    <section id="story" class="relative py-24 lg:py-28">
+        <div class="container">
+            <div class="min-w-16 mx-auto relative">
+                <div class="flex justify-between items-start mb-8">
+                    <h1 class="text-2xl md:text-2xl font-bold ml-10">It all started
+                        here so many years ago....</h1>
+                    <div>
+                        <img src="assets/spark, sparks, sparkle, stars, 30.png" alt="stars" class="">
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <!-- Orange dotted line -->
+                    <svg class="absolute top-1/2 left-0 w-full h-1" style="transform: translateY(-50%);">
+                        <line x1="0" y1="0" x2="100%" y2="0" stroke="#FFA500"
+                            stroke-width="4" stroke-dasharray="10,10" style="animation: dash 20s linear infinite;" />
+                    </svg>
+
+                    <!-- Timeline items -->
+                    <div class="flex flex-col md:flex-row justify-between gap-4 items-start relative z-10">
+                        <!-- Item 1 -->
+
+                        <div class="md:w-1/3 w-full px-0 md:px-4">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
+                                <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
+                                    <div class="inset-0 bg-cover bg-center"
+                                        style="background-image: url('path_to_cityscape.jpg');"></div>
+                                    <img src="assets/Step1.png" alt="1900s Afro-Brazilian house"
+                                        class=" h-48 w-full object-cover">
+                                </div>
+                                <p class="text-sm">1900s Afro-Brazilian houses in Lagos making way for more
+                                    contemporary buildings.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="md:w-1/3 w-full md:mt-16">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
+                                <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
+                                    <div class=" inset-0 bg-cover bg-center"
+                                        style="background-image: url('path_to_cityscape.jpg');"></div>
+                                    <img src="assets/Step2.png" alt="Pedro home" class="h-full w-full object-cover">
+
+                                </div>
+                                <p class="text-sm">The Pedro home in Isale-Eko transported to Ibeju-Lekki</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="md:w-1/3 w-full px-0 md:px-4">
+                            <div class="bg-gray-200 rounded-lg shadow-lg p-4 relative">
+                                <div class="bg-gray-200 h-48 mb-4 relative overflow-hidden">
+                                    <img src="assets/Step3.png" alt="Fallen house"
+                                        class="w-full h-full object-cover transform ">
+
+                                </div>
+                                <p class="text-sm">Bad weather conditions caused the house to fall.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <Our Hero Today start  -->
+    <section id="hero"
+        class="relative bg-default-100 dark:bg-default-50 py-24 lg:py-32 bg-cover bg-no-repeat bg-[url('../images/other/bg-lines-2.png')] dark:bg-[url('../images/other/bg-lines-2-dark.png')]">
+        <div
+            class="flex items-center overflow-hidden  before:absolute before:inset-0 before:left-[63.67%] before:rounded-bl-3xl before:hidden lg:before:block">
+            <div class="bg-contain bg-right bg-no-repeat absolute -top-44 right-0 bottom-0 w-2/6"
+                style="background-image: url(assets/bg-1-868c85a9.png);"></div>
+
+            <div class="container">
+                <div class="grid lg:grid-cols-2 grid-cols-1 items-center gap-28">
+                    <div class="z-10">
+                        <div class="flex gap-4 md:gap-6 tilt items-center">
+
+                            <div class="flex flex-col gap-4 md:gap-6 pb-10 md:pb-16 w-full relative">
+                                <img src="assets/congress woman_1 (1).jpg"
+                                    class="w-full h-40 md:h-[278px] rounded-lg object-cover" alt="">
+                                <img src="assets/congress woman_1 (4).jpg"
+                                    class="w-full h-40 md:h-[278px] rounded-lg object-cover" alt="">
+                            </div>
+                            <div class="flex flex-col gap-4 md:gap-6  w-full">
+                                <img src="assets/congress woman_1 (2).jpg"
+                                    class="h-full w-full rounded-lg object-cover" alt="">
+                            </div>
+                        </div><!-- flex End -->
+                    </div>
+
+                    <div class="">
+                        <div class="flex flex-col justify-center">
+                            <h2 class="xl:text-5xl/tight sm:text-3xl text-2xl font-medium text-default-950 mb-4">Meet
+                                Our Hero of Today</h2>
+                            <p class="text-base font-medium mt-5">Today, we shine a spotlight on Ameyo Stella Adadevoy,
+                                a beacon of inspiration and resilience. Ameyo Stella Adadevoy has transformed challenges
+                                into triumphs, proving that determination and a positive attitude can conquer any
+                                obstacle. Their journey is a testament to the power of perseverance and the impact one
+                                individual can make on the world. </p>
+                            <div class="mt-10">
+
+                            </div>
+                        </div><!-- flex End -->
+                    </div>
+                </div>
+            </div><!-- Grid End -->
+        </div><!-- Container End -->
+        </div>
+    </section>
+    <!-- <our Hero today ends -->
+    <!-- Gallery Start -->
+    <section id="gallery" class="py-20 lg:py-20">
+        <div class="container">
+            <div class="flex flex-wrap items-center justify-between gap-3">
+                <div>
+                    <div class="max-w-2xl mx-auto">
+                        <h2 class="text-4xl font-medium text-default-950 mb-4">Our Gallery</h2>
+                        <p class="text-base font-medium">Our gallery is a vibrant collection of moments frozen in time,
+                            showcasing the whimsy, wonder, and joy experienced by our visitors, Each image in our
+                            gallery is a testament to the magic of the Upside Down House.</p>
+                    </div>
+                </div>
+                <a href="/gallery"
+                    class="group mt-10 inline-flex items-center justify-center gap-2 border border-default-200 text-default-950 py-1 px-1 pe-4 rounded-full hover:bg-primary-700 hover:text-white transition-all duration-300">
+                    <span
+                        class="h-11 w-11 rounded-full bg-primary/20 group-hover:bg-white text-primary group-hover:text-black flex items-center justify-center transition-all duration-500 me-2">
+                        <i data-lucide="image" class="h-5 w-5"></i>
+                    </span>
+                    View Gallery
+                </a>
+                <!-- <div>
+                <a href="#" class="inline-flex items-center justify-center gap-2 border border-default-200 text-white py-2 px-6 bg-primary hover:bg-primary-700 transition-all duration-300">View All</a>
+            </div> -->
+            </div><!-- flex End -->
+        </div>
+
+        <div class="mt-14">
+            <div class="relative gap-8 m-auto flex overflow-hidden">
+                <div class="marquee__group gap-8 flex items-center justify-around flex-shrink-0 min-w-full">
+                    <img class="object-cover h-60 w-full" src='assets/Bedroom.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Exterior View 1.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Dinning area.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Bedroom 2.jpg' alt=''>
+                </div><!-- marquee__group End -->
+
+                <div aria-hidden="true"
+                    class="marquee__group gap-8 flex items-center justify-around flex-shrink-0 min-w-full">
+                    <img class="object-cover h-60 w-full" src='assets/Exterior View 2.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Main Living Area.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Exterior View 1.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Bedroom 2.jpg' alt=''>
+                </div><!-- marquee__group End -->
+            </div><!-- flex End -->
+
+            <div class="marquee--reverse gap-8 m-auto flex overflow-hidden mt-8">
+                <div
+                    class="marquee__group gap-8 delay-[31s] flex items-center justify-around flex-shrink-0 min-w-full">
+                    <img class="object-cover h-60 w-full" src='assets/Bedroom.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Main Living Area.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Dinning area.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Bedroom 2.jpg' alt=''>
+                </div><!-- marquee__group End -->
+
+                <div aria-hidden="true"
+                    class="marquee__group delay-[31s] gap-8 flex items-center justify-around flex-shrink-0 min-w-full">
+                    <img class="object-cover h-60 w-full" src='assets/Exterior View 2.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Main Living Area.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Main Living Area.jpg' alt=''>
+                    <img class="object-cover h-60 w-full" src='assets/Bedroom 2.jpg' alt=''>
+                </div><!-- marquee__group End -->
+            </div><!-- marquee--reverse End -->
+        </div>
+    </section>
+    <!-- Gallery end -->
+    <!-- Start Faq -->
+    <section id="faq" class="py-10 lg:py-20 border-primary/10 bg-primary/5">
+        <div class="container">
+            <div>
+                <div class="flex items-end justify-between mb-10">
+                    <div class="max-w-2xl mx-auto text-center">
+                        <span
+                            class="py-1 px-3 text-xs font-medium uppercase tracking-wider border border-default-200 text-default-950">Our
+                            FAQ</span>
+                        <h2 class="text-3xl font-medium capitalize text-default-950 my-4">Have Questions?</h2>
+                        <p class="text-base font-medium">Discover solutions to frequently asked questions about the
+                            Upside Down House, event photography, and the use of commercial images.</p>
+                    </div>
+                </div><!-- flex End -->
+
+                <div class="max-w-3xl mx-auto">
+                    <div class="hs-accordion-group space-y-4">
+                        <div class="hs-accordion border border-primary/20 hs-accordion-active:bg-primary/10 overflow-hidden active"
+                            id="faq-1">
+                            <button
+                                class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-default-950 transition-all"
+                                aria-controls="faq-accordion-1">
+                                <h5 class="text-xl font-medium">
+                                    How do I get tickets for The Upside Down House?
+                                </h5>
+                                <i data-lucide="plus"
+                                    class="h-6 w-6 transition-all duration-500 hs-accordion-active:-rotate-45"></i>
+                            </button>
+                            <div id="faq-accordion-1"
+                                class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                                aria-labelledby="faq-1">
+                                <div class="px-6 pb-4 pt-0">
+                                    <p class="text-sm font-medium">Booking the ticket can be done online through the
+                                        Website or The Landmark Citizen App.</p>
+                                </div>
+                            </div>
+                        </div><!-- col End-->
+
+                        <div class="hs-accordion border border-primary/20 hs-accordion-active:bg-primary/10 overflow-hidden"
+                            id="faq-2">
+                            <button
+                                class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-default-950 transition-all"
+                                aria-controls="faq-2">
+                                <h5 class="text-xl font-medium">
+                                    How long can I stay in the experience?
+                                </h5>
+                                <i data-lucide="plus"
+                                    class="h-6 w-6 transition-all duration-500 hs-accordion-active:-rotate-45"></i>
+                            </button>
+                            <div id="faq-2"
+                                class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                                aria-labelledby="faq-2">
+                                <div class="px-6 pb-4 pt-0">
+                                    <p class="text-sm font-medium">You can take all the time you need!</p>
+                                </div>
+                            </div>
+                        </div><!-- col End-->
+
+                        <div class="hs-accordion border border-primary/20 hs-accordion-active:bg-primary/10 overflow-hidden"
+                            id="faq-3">
+                            <button
+                                class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-default-950 transition-all"
+                                aria-controls="faq-3">
+                                <h5 class="text-xl font-medium">
+                                    Do I need to book tickets in advance??
+                                </h5>
+                                <i data-lucide="plus"
+                                    class="h-6 w-6 transition-all duration-500 hs-accordion-active:-rotate-45"></i>
+                            </button>
+                            <div id="faq-3"
+                                class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                                aria-labelledby="faq-3">
+                                <div class="px-6 pb-4 pt-0">
+                                    <p class="text-sm font-medium">While walk-ins are welcome, we recommend booking
+                                        your tickets in advance to ensure availability and to skip the queue. You can
+                                        book your tickets online on our website ticketing page or Landmark Citizen App
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- col End-->
+
+                        <div class="hs-accordion border border-primary/20 hs-accordion-active:bg-primary/10 overflow-hidden"
+                            id="faq-3">
+                            <button
+                                class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-default-950 transition-all"
+                                aria-controls="faq-3">
+                                <h5 class="text-xl font-medium">
+                                    Are there any restrictions inside the Upside Down House?
+                                </h5>
+                                <i data-lucide="plus"
+                                    class="h-6 w-6 transition-all duration-500 hs-accordion-active:-rotate-45"></i>
+                            </button>
+                            <div id="faq-3"
+                                class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                                aria-labelledby="faq-3">
+                                <div class="px-6 pb-4 pt-0">
+                                    <p class="text-sm font-medium">For safety reasons, we ask that visitors do not
+                                        climb on the furniture or fixtures. Additionally, food and drinks are not
+                                        allowed inside the house.</p>
+                                </div>
+                            </div><!-- col End-->
+
+                            <div class="hs-accordion border border-primary/20 hs-accordion-active:bg-primary/10 overflow-hidden"
+                                id="faq-3">
+                                <button
+                                    class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-default-950 transition-all"
+                                    aria-controls="faq-3">
+                                    <h5 class="text-xl font-medium">
+                                        Who can I contact for more information?
+                                    </h5>
+                                    <i data-lucide="plus"
+                                        class="h-6 w-6 transition-all duration-500 hs-accordion-active:-rotate-45"></i>
+                                </button>
+                                <div id="faq-3"
+                                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                                    aria-labelledby="faq-3">
+                                    <div class="px-6 pb-4 pt-0">
+                                        <p class="text-sm font-medium">For any additional questions or information,
+                                            feel free to reach out to us at support@landmarkafrica.com. You can also
+                                            visit our walk in information center. </p>
+                                    </div>
+                                </div>
+                            </div><!-- col End-->
+                        </div>
+                    </div><!-- col End-->
+                </div><!-- container End-->
+    </section>
+    <!-- End faq -->
+    <!-- Contact_us start -->
+    <section id="contact" class="py-10 lg:py-20">
+        <div class="container">
+            <div class="relative z-20">
+                <div class="hidden xl:block">
+                    <div
+                        class="before:w-24 before:h-24 before:absolute before:-top-10 before:-end-10 before:-z-10 before:bg-[url('https://coderthemes.com/images/other/dot.svg')]">
+                    </div>
+                    <div
+                        class="after:w-24 after:h-24 after:absolute after:-bottom-10 after:-start-10 after:-z-10 after:bg-[url('https://coderthemes.com/images/other/dot.svg')]">
+                    </div>
+                </div>
+
+                <div class="grid xl:grid-cols-2 gap-6">
+                    <div class="relative group">
+
+                        <img src="assets/UDH dinner.jpg" class="h-full w-full rounded-x0 " alt="">
+                        <div class="absolute inset-0 rounded-x2 bg-black\40">
+                            <div class="">
+
+                                <!-- <div class="flex items-end justify-center h-full">
+                          <div class="max-w-md mx-auto text-center bg-white/10 backdrop-blur-xl p-4 m-6 rounded-xl">
+                              <h2 class="text-4xl/snug font-medium text-white">Would you like to support our mission?</h2>
+                              <p class="text-base font-medium text-white/80 mt-5">Complete the form and become a part of our community.</p>
+                          </div>
+                      </div>flex  End -->
+                            </div>
+                        </div>
+                    </div><!-- col End -->
+
+                    <div>
+                        <div class="p-8 rounded-md bg-default-100 dark:bg-default-50">
+                            <form class="relative">
+                                <h2 class="text-2xl font-medium text-default-950"> Get In Touch With Us!</h2>
+                                <div class="space-y-7 my-6">
+                                    <div>
+                                        <input type="text"
+                                            class="py-3 px-4 block w-full text-base rounded-full text-default-950 border-default-200 dark:bg-default-50 focus:border-default-300 focus:ring-transparent"
+                                            id="formFirstName" placeholder="Your first name..." required="">
+                                    </div><!-- col End -->
+
+                                    <div>
+                                        <input type="email"
+                                            class="py-3 px-4 block w-full rounded-full text-default-950 border-default-200 dark:bg-default-50 focus:border-default-300 p-4 focus:ring-transparent"
+                                            id="formEmail" placeholder="Your email..." required="">
+                                    </div><!-- col End -->
+
+                                    <div>
+                                        <input type="text"
+                                            class="py-3 px-4 block w-full text-base rounded-full text-default-950 border-default-200 dark:bg-default-50 focus:border-default-300 focus:ring-transparent"
+                                            id="formSubject" placeholder="Enter Subject..." required="">
+                                    </div><!-- col End -->
+
+                                    <div>
+                                        <input type="text"
+                                            class="py-3 px-4 block w-full text-base rounded-full text-default-950 border-default-200 dark:bg-default-50 focus:border-default-300 focus:ring-transparent"
+                                            id="formMessage" placeholder="Your Message..." required="">
+                                    </div><!-- col End -->
+                                </div><!-- grid End -->
+
+                                <button type="submit"
+                                    class="py-3 w-full flex items-center justify-center rounded-full text-base text-white bg-primary hover:bg-primary-700 transition-all duration-500">Submit
+                                    Now</button>
+                            </form><!-- From End -->
+                        </div>
+                    </div><!-- col End -->
+                </div><!-- grid End -->
+            </div>
+        </div><!-- Container End -->
+    </section>
+    <!-- Contact_us end -->
+    <!-- footer begins here -->
+    <footer>
+    <div class="border-y border-default-200 border-primary/10 bg-primary/5">
+        <div class="container py-20">
+            <div class="grid xl:grid-cols-5 md:grid-cols-3 gap-10 lg:gap-16">
+                <div class="xl:col-span-2 md:col-span-3">
+                    <div>
+                        <a href="/">
+                            <img src="http://localhost/assets/UDH Logo.png" alt="logo" class="h-16 flex dark:hidden">
+                        </a>
+                        <p class="text-base font-medium  text-default-800 mt-6"> The Upside Down House is a perfect
+                            spot for families, friends, and anyone looking to add a little magic to their day.</p>
+
+                    </div>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Company</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">About</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Services</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-2">Social Media</h5>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="facebook" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Facebook</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="instagram" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Instagram</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="twitter" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Twitter</h5>
+                            </li>
+                            <li class="flex items-center gap-5 group">
+                                <a href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-default-300 text-default-800 rounded-lg transition-all duration-700 group-hover:bg-primary group-hover:text-white group-hover:border-primary"><i
+                                        data-lucide="linkedin" class="h-5 w-5"></i></a>
+                                <h5 class="text-base font-medium text-default-800">Linkedin</h5>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <!-- col End -->
+
+                <div class="">
+                    <ul class="flex flex-col gap-3">
+                        <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0">Location</h5>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="text-base text-default-700 hover:text-default-950 transition-all">Plot 3 &
+                                4, Water Corporation Road, Victoria Island - Lagos</a>
+                        </li>
+                        <!-- <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Terms & Conditions</a>
+                      </li>
+                      <li>
+                          <a href="javascript:void(0);" class="text-base text-default-700 hover:text-default-950 transition-all">Presskit</a>
+                      </li> -->
+                        <ul class="flex flex-col gap-1">
+                            <h5 class="xl:text-xl lg:text-lg font-medium text-default-800 mb-0 pt-10">Opening Hours
+                            </h5>
+                            <li>
+                                <a href="javascript:void(0);"
+                                    class="text-base text-default-700 hover:text-default-950 transition-all">Monday
+                                    - Friday [10am - 10pm]
+                                </a>
+                            </li>
+
+                        </ul>
+                    </ul>
+                </div><!-- col End -->
+            </div><!-- grid End -->
+        </div><!-- Container End -->
+    </div>
+
+    <div class="py-4">
+        <div
+            class="container flex flex-wrap justify-center items-center h-full md:justify-between text-center md:text-start">
+            <p class="text-base font-medium text-default-800">
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                © Landmark Africa
+            </p>
+            <p class="text-base font-medium text-default-800">
+                <a href="#">Terms & Conditions</a>
+            </p>
+        </div><!-- Flex End -->
+    </div>
+</footer>
+    <!-- footer ends here -->
+    <div class="fixed bottom-5 end-5 flex flex-col gap-1 items-center z-[1000]">
+        <!-- Back to Top -->
+        <button
+            class="h-10 w-10 bg-primary/20 backdrop-blur-3xl rounded-full text-primary flex justify-center items-center transition-all duration-500 translate-x-16 shadow-[inset_0px_0px_12px_0px] shadow-primary/40 z-10 "
+            data-toggle="back-to-top">
+            <i class="h-4 w-4" data-lucide="chevron-up"></i>
+        </button>
+
+        <!-- Light/Dark Toggle -->
+        <button class="bg-primary text-white rounded-lg z-20">
+            <span class="h-9 w-9 flex justify-center items-center" id="light-theme">
+                <i class="h-5 w-5" data-lucide="moon"></i>
+            </span>
+            <span class="h-9 w-9 flex justify-center items-center" id="dark-theme">
+                <i class="h-5 w-5" data-lucide="sun"></i>
+            </span>
+        </button>
+    </div>
+    <!-- Livewire Scripts -->
+<script src="http://localhost/vendor/livewire/livewire.js?id=c4fc8c5d"   data-csrf="E9PeCswlQoplxL8VCSPRAJ4GUVn7CEXvs5ePC7fj" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+</body>
+
+</html>
